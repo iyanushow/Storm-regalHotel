@@ -55,11 +55,13 @@ form .btn-warning {
   text-align: center;
 }
 
-.copyright {
+.copyright 
+{
   text-align: center;
   font-family: 'Muli', serif;
   font-style: normal;
   font-size: 14px;
+  color: white;
 }
 
 @media (max-width: 830px) {
