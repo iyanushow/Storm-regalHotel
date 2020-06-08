@@ -1,0 +1,168 @@
+section#contact {
+  background-color: #181920cf;
+}
+
+section#contact #forms {
+  color: white;
+}
+
+section#contact #forms #media p {
+  float: left;
+}
+
+section#contact #forms .col-lg-6 {
+  height: 70%;
+  font-family: "Poppins";
+}
+
+section#contact #forms .col-lg-6 h2, section#contact #forms .col-lg-6 p, section#contact #forms .col-lg-6 label {
+  font-weight: 300;
+}
+
+section#contact #footer .col-lg-3 h5, section#contact #footer .col-lg-3 p {
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 40px;
+  margin-bottom: 0;
+  color: white;
+}
+
+section#contact #footer .col-lg-3 h5:hover, section#contact #footer .col-lg-3 p:hover {
+  -webkit-text-decoration: underline white solid;
+          text-decoration: underline white solid;
+}
+
+section#contact #footer .col-lg-3 .contact-line {
+  float: left;
+}
+
+section#contact #footer .col-lg-3 .contact-line i {
+  color: white;
+}
+
+form .form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+}
+
+form .btn-warning {
+  background-color: #EF5F25;
+  border: 0;
+  border-radius: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.copyright {
+  text-align: center;
+  font-family: 'Muli', serif;
+  font-style: normal;
+  font-size: 14px;
+}
+
+@media (max-width: 830px) {
+  .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .rem {
+    display: none;
+  }
+}
+/*# sourceMappingURL=offers.css.map */
+body{
+  background-color: #2f303a;
+  font-family: 'Poppins', sans-serif;
+}
+/*.container{
+  margin: 30px;
+}*/
+
+.image {  
+  width: 100%;
+  text-align: center;
+}
+
+h3 {  
+  font-style: light;
+  font-size:  48px;
+  line-height: 72px,100%;
+  align-items: center;
+  color: white;
+}
+.card{
+  border: none;
+  box-shadow: 6px 6px 60px rgba(0, 0, 0, 0.2);
+  background: rgba(24, 25, 32, 0.81);
+}
+.card-title{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 54px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.heading{
+  color: white;
+  text-align: center;
+}
+.room-items{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 25px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  
+  color: rgba(255, 255, 255, 0.5);
+}
+#twins-text{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 54px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.room-price{
+  font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 36px;
+display: flex;
+align-items: center;
+color: rgba(255, 255, 255, 0.8);
+}
+.card-text{
+  font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 21px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+.btn{
+  background-color: rgb(222, 103, 56);
+  border: none;
+  width: 178px;
+}
+
+.btn:hover{
+  background-color:  rgb(222, 103, 56);
+}
