@@ -152,9 +152,7 @@ position: absolute;
   .nav-links li:nth-child(5){
     transition: all 0.5s ease 0.10s;
     }
-    li.fade{
-        opacity: 1;
-    }
+ 
     .nav-links li a{
         font-size: 25px;
         
