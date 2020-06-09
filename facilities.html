@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facilities</title>
+    <!-- favicon -->
+    <link rel="title icon" type="img/png" href="images/favicon.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- font-awesome -->
+    <script src="https://kit.fontawesome.com/4ae34a2f3e.js" crossorigin="anonymous"></script> <!--load all styles -->
+    <!-- google font poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="">
+    <style>
+        body{
+            font-family: 'Poppins', sans-serif;
+            background-color: #2F303A;
+            font-weight: 500;
+        }
+
+        /* horizontal line */
+        .underline{
+            width: 130px;
+            border: 1px solid #EF5F25;
+            margin: auto;
+        }
+        /* end of horizontal line */
+
+        /* carousel indicators */
+        .carousel-indicators{
+            margin-bottom: -50px;
+        }
+        /* end of carousel indicators */
+
+        /* card */
+        .card-color{
+            background-color: rgba(24, 25, 32, 0.81);
+            transition: all .4s;
+        }
+
+        .card-color:hover{
+            transform: translateY(-1px);            
+        }
+        /* end of card */
+
+        /* list */
+        ul > li {
+            list-style-image: url('images/hr.png');  
+        }
+        /*end of list*/
+
+        /*button*/
+        .btn{
+            background-color:#ef5f25;
+            border-radius: 0;
+            color: white;
+            transition: all .4s;
+        }
+        .btn:hover{
+            background-color: white;
+            color: #ef5f25;
+            transform: translateY(-1px);            
+        }
+        /* end of button */
+    
+    </style>
+</head>
+<body>
+    
+    <!-- carousel -->
+        <section class="p-5">
+            <div class="container-fluid">
+                <!-- title -->
+                <div class="row  text-center">
+                    <div class="col">
+                        <h3 class="text-light">Hotel Facilities</h3>
+                        <div class="underline"></div>                        
+                    </div>
+                </div>
+                <!-- end of title -->
+                
+                <div class="row my-5">
+                    <div class="col-xl-8 col-lg-10 col-md-12 col-sm-12 mx-auto">
+                        <div id="facilities-carousel" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#facilities-carousel" data-slide-to="0"></li>
+                                <li data-target="#facilities-carousel" data-slide-to="1"></li>
+                                <li data-target="#facilities-carousel" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <!-- first slide -->
+                                <div class="carousel-item active">
+                                     <div class="container">
+                                         <div class="row">
+                                             <!-- first slide first card -->                                             
+                                             <div class="col-md-6 col-sm-12 mb-2">
+                                                <div class="card card-color h-100 m-sm-2">
+                                                    <img src="images/gymnasium.png" class="card-img-top" alt="">
+                                                    <div class="card-body">
+                                                        <div class="card-title">
+                                                            <h3 class="text-light lead font-weight-bold">Gymnasium</h3>
+                                                        </div>
+                                                        <div class="class-subtitle">
+                                                            <p class="text-light">
+                                                                We have the most equipped gym in Amsterdam with 
+                                                                highly trained instructors always available
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>                                                 
+                                             </div>
+                                             <!-- end of first slide first card -->
+
+                                             <!-- first slide second card -->
+                                             <div class="col-md-6 col-sm-12 mb-2">
+                                                <div class="card card-color h-100 m-sm-2">
+                                                    <img src="images/saloon&spa.png" class="card-img-top" alt="">
+                                                    <div class="card-body">
+                                                        <div class="card-title">
+                                                            <h3 class="text-light lead font-weight-bold">Saloon & Spa</h3>
+                                                        </div>
+                                                        <div class="class-subtitle">
+                                                            <p class="text-light">
+                                                                You’re welcome to experience relaxing massages and pampering sessions at our 
+                                                                spa and we gurantee you a memorable escapade.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                             <!-- end of first slide second card -->
+                                            
+                                         </div>                                         
+                                     </div>
+                                </div>
+                                <!-- end of first slide -->
+
+                                <!-- second slide -->
+                                <div class="carousel-item">
+                                    <div class="container">
+                                        <div class="row">
+                                            <!-- second slide first card -->                                             
+                                            <div class="col-md-6 col-sm-12 mb-2">
+                                               <div class="card card-color h-100 m-sm-2">
+                                                   <img src="images/gymnasium.png" class="card-img-top" alt="">
+                                                   <div class="card-body">
+                                                       <div class="card-title">
+                                                           <h3 class="text-light lead font-weight-bold">Gymnasium</h3>
+                                                       </div>
+                                                       <div class="class-subtitle">
+                                                           <p class="text-light">
+                                                               We have the most equipped gym in Amsterdam with 
+                                                               highly trained instructors always available
+                                                           </p>
+                                                       </div>
+                                                   </div>
+                                               </div>                                                 
+                                            </div>
+                                            <!-- end of second slide first card -->
+
+                                            <!-- second slide second card -->
+                                            <div class="col-md-6 col-sm-12 mb-2">
+                                               <div class="card card-color h-100 m-sm-2">
+                                                   <img src="images/saloon&spa.png" class="card-img-top" alt="">
+                                                   <div class="card-body">
+                                                       <div class="card-title">
+                                                           <h3 class="text-light lead font-weight-bold">Saloon & Spa</h3>
+                                                       </div>
+                                                       <div class="class-subtitle">
+                                                           <p class="text-light">
+                                                               You’re welcome to experience relaxing massages and pampering sessions at our 
+                                                               spa and we gurantee you a memorable escapade.
+                                                           </p>
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                            <!-- end of second slide second card -->
+                                           
+                                        </div>                                         
+                                    </div>
+                               </div>
+                                <!-- end of second slide -->
+                                
+
+                                <!-- third slide -->
+                                <div class="carousel-item">
+                                    <div class="container">
+                                        <div class="row">
+                                            <!-- third slide first card -->                                             
+                                            <div class="col-md-6 col-sm-12 mb-2">
+                                               <div class="card card-color h-100 m-sm-2">
+                                                   <img src="images/gymnasium.png" class="card-img-top" alt="">
+                                                   <div class="card-body">
+                                                       <div class="card-title">
+                                                           <h3 class="text-light lead font-weight-bold">Gymnasium</h3>
+                                                       </div>
+                                                       <div class="class-subtitle">
+                                                           <p class="text-light">
+                                                               We have the most equipped gym in Amsterdam with 
+                                                               highly trained instructors always available
+                                                           </p>
+                                                       </div>
+                                                   </div>
+                                               </div>                                                 
+                                            </div>
+                                            <!-- end of third slide first card -->
+
+                                            <!-- third slide second card -->
+                                            <div class="col-md-6 col-sm-12 mb-2">
+                                               <div class="card card-color h-100 m-sm-2">
+                                                   <img src="images/saloon&spa.png" class="card-img-top" alt="">
+                                                   <div class="card-body">
+                                                       <div class="card-title">
+                                                           <h3 class="text-light lead font-weight-bold">Saloon & Spa</h3>
+                                                       </div>
+                                                       <div class="class-subtitle">
+                                                           <p class="text-light">
+                                                               You’re welcome to experience relaxing massages and pampering sessions at our 
+                                                               spa and we gurantee you a memorable escapade.
+                                                           </p>
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                            <!-- end of third slide second card -->
+                                           
+                                        </div>                                         
+                                    </div>
+                               </div>
+                                <!-- end of third slide -->
+                                
+                            </div>                         
+                        </div>
+                        
+                    </div>
+                    <a href="#facilities-carousel" class="carousel-control-prev" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a href="#facilities-carousel" class="carousel-control-next" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+                
+            </div>
+        </section>
+    <!-- end of carousel -->
+
+        <section class="p-2">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col text-light text-center">
+                        <h2>Our Hotel Provide All The Service You Need</h2>
+                    </div>                    
+                </div>
+                <div class="row justify-content-center">
+                    <!-- list -->
+                    <div class="text-light">
+                        <ul>
+                            <li class="p-1 lead">
+                                Free High Speed WiFi
+                            </li>                                
+                            <li class="p-1 lead">
+                                Airport Luxury Pickup (On Request)
+                            </li>
+                            <li class="p-1 lead">
+                                Complimentary Exotic Breakfast
+                            </li>
+                            <li class="p-1 lead">
+                                Express Check-in / Check-out
+                            </li>
+                            <li class="p-1 lead">
+                                On-Site Car Park
+                            </li>
+                            <li class="p-1 lead">
+                                Facilities For The Disabled
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- end of list -->                    
+                </div>
+                <div class="row pt-5">
+                    <div class="col text-center text-light">
+                        <h1>Want to make a custom reservation?</h1>
+                    </div>
+                    
+                </div>
+                <div class="row justify-content-center m-3">
+                    <div class="mb-5">
+                        <button class="btn btn-text-white btn-lg px-4" type="submit">Contact Us</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src=""></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
