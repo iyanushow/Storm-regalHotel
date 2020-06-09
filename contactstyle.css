@@ -417,6 +417,7 @@ pointer-events: none;
 /* footer style-start */
 section#contact {
     background-color: #181920cf;
+   
   }
   
   section#contact #forms {
@@ -438,7 +439,7 @@ section#contact {
   
   section#contact #footer .col-lg-3 h5, section#contact #footer .col-lg-3 p {
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 13px;
     line-height: 40px;
     margin-bottom: 0;
     color: white;
@@ -471,7 +472,11 @@ section#contact {
     width: 100%;
     text-align: center;
   }
-  
+  form .btn-warning:hover
+  {
+    background-color: #e94200;
+    
+  }
   .copyright {
     text-align: center;
     font-family: 'Muli', serif;
@@ -494,5 +499,21 @@ section#contact {
     .rem {
       display: none;
     }
+  }
+  @media (max-width: 600px) {
+    #footer > div.col.col-lg-3.logo > div > div:nth-child(1) > img,#media p
+    {
+      position: relative;
+      left: 20%;
+    }
+  }
+
+  @media (max-width: 600px)
+  {
+    #forms  h2
+    {
+      font-size: 14px;
+    }
+    
   }
   /* footer style-end */

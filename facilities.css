@@ -211,86 +211,107 @@ nav ul > li {
 
 /* footer style-start */
 section#contact {
-    background-color: #181920cf;
-  }
+  background-color: #181920cf;
+ 
+}
+
+section#contact #forms {
+  color: white;
+}
+
+section#contact #forms #media p {
+  float: left;
+}
+
+section#contact #forms .col-lg-6 {
+  height: 70%;
+  font-family: "Poppins";
+}
+
+section#contact #forms .col-lg-6 h2, section#contact #forms .col-lg-6 p, section#contact #forms .col-lg-6 label {
+  font-weight: 300;
+}
+
+section#contact #footer .col-lg-3 h5, section#contact #footer .col-lg-3 p {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 40px;
+  margin-bottom: 0;
+  color: white;
+}
+
+section#contact #footer .col-lg-3 h5:hover, section#contact #footer .col-lg-3 p:hover {
+  -webkit-text-decoration: underline white solid;
+          text-decoration: underline white solid;
+}
+
+section#contact #footer .col-lg-3 .contact-line {
+  float: left;
+}
+
+section#contact #footer .col-lg-3 .contact-line i {
+  color: white;
+}
+
+form .form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+}
+
+form .btn-warning {
+  background-color: #EF5F25;
+  border: 0;
+  border-radius: 0;
+  width: 100%;
+  text-align: center;
+}
+form .btn-warning:hover
+{
+  background-color: #e94200;
   
-  section#contact #forms {
-    color: white;
+}
+.copyright {
+  text-align: center;
+  font-family: 'Muli', serif;
+  font-style: normal;
+  font-size: 14px;
+}
+
+@media (max-width: 830px) {
+  .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  
-  section#contact #forms #media p {
-    float: left;
+  .rem {
+    display: none;
   }
-  
-  section#contact #forms .col-lg-6 {
-    height: 70%;
-    font-family: "Poppins";
+}
+@media (max-width: 600px) {
+  #footer > div.col.col-lg-3.logo > div > div:nth-child(1) > img,#media p
+  {
+    position: relative;
+    left: 20%;
   }
-  
-  section#contact #forms .col-lg-6 h2, section#contact #forms .col-lg-6 p, section#contact #forms .col-lg-6 label {
-    font-weight: 300;
-  }
-  
-  section#contact #footer .col-lg-3 h5, section#contact #footer .col-lg-3 p {
-    font-weight: 300;
-    font-size: 1rem;
-    line-height: 40px;
-    margin-bottom: 0;
-    color: white;
-  }
-  
-  section#contact #footer .col-lg-3 h5:hover, section#contact #footer .col-lg-3 p:hover {
-    -webkit-text-decoration: underline white solid;
-            text-decoration: underline white solid;
-  }
-  
-  section#contact #footer .col-lg-3 .contact-line {
-    float: left;
-  }
-  
-  section#contact #footer .col-lg-3 .contact-line i {
-    color: white;
-  }
-  
-  form .form-control {
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid gray;
-    outline: none;
-  }
-  
-  form .btn-warning {
-    background-color: #EF5F25;
-    border: 0;
-    border-radius: 0;
-    width: 100%;
-    text-align: center;
-  }
-  
-  .copyright {
-    text-align: center;
-    font-family: 'Muli', serif;
-    font-style: normal;
+}
+
+@media (max-width: 600px)
+{
+  #forms  h2
+  {
     font-size: 14px;
   }
   
-  @media (max-width: 830px) {
-    .logo {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-    }
-    .rem {
-      display: none;
-    }
-  }
-  /* footer style-end */
+}
+/* footer style-end */
 
 
 
