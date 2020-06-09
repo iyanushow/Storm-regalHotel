@@ -37,6 +37,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     margin-left: auto;
+    
    
 }
 
@@ -44,6 +45,7 @@ nav{
     text-decoration: none;
     font-size: 16px;
     color: white;
+    
 }
 .nav-links li a:hover
 {
@@ -184,6 +186,9 @@ pointer-events: none;
 /* list */
 ul > li {
     list-style-image: url('images/hr.png');  
+}
+nav ul > li {
+    list-style-image: none;  
 }
 /*end of list*/
 
