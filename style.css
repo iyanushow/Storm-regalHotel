@@ -53,7 +53,7 @@ hr{
     float: left;
 }
 header{
-    background: url(img/header.png);
+    background: url(images/header.png);
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -234,7 +234,15 @@ position: absolute;
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
-  
+  .card .container p,.card .container h2
+  {
+    font-weight: 200;
+  }
+  #location
+  {
+    text-align: center;
+    font-weight: 200;
+  }
   .container {
     padding: 0 16px;
     
@@ -247,7 +255,7 @@ position: absolute;
   }
   
   .title {
-    color: #2F303A;
+    color: #918383;
   }
   
   .button {
@@ -282,19 +290,64 @@ position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
  }
+ .about-us
+ {
+  
+  background-color:#181920cf ;
+ }
+ #clear
+ {
+   height: 30px;
+ }
 .about-img{
-  float: right;
-  height: 300px;
-  position: absolute;
-  right: 100px;
+  /* float: left; */
+ font-size: 1rem;
+  
+  text-align: justify;
+  
+  width:600px;
+  height:400px;
+  
 }
-.about-us p{
-  word-break: keep-all;
-  font-size: 17px;
+h1.text-center,body > div.vision > h1
+{
+  margin-top: 100px;
+}
+body > section.rooms > div
+{
+  margin-top: 100px;
+}
+@media (max-width: 660px) {
+  .about-img{
+    /* float: left; */
+  
+    width:600px;
+    height:400px;
+    
+  }
+  
+}
+.clearfix {
+  overflow: auto;
+  
+  
+}
+#text-about
+{
+  
+  justify-content: center;
+  font-weight: 100;
+}
+
+
+/*
+.about- p{
+  
+  
   position: absolute;
   left: 100px;
 }
-/* body > header > div > h1
+ body > header > div > h1
 {
     font-family: 'p';
 } */
