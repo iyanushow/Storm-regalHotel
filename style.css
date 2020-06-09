@@ -54,7 +54,7 @@ nav{
     float: left;
 }
 header{
-    background: url(img/header.png);
+    background: url(images/header.png);
     background-size: cover;
     width: 100%;
     height: 100vh;
