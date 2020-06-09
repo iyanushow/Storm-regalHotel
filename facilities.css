@@ -291,3 +291,32 @@ section#contact {
     }
   }
   /* footer style-end */
+
+
+
+  body > section.p-5 > div > div.row.my-5 > a.carousel-control-prev
+{
+  height: 40%;
+  position: absolute;
+  top: 15%;
+  /* right: 3.2rem; */
+}
+
+body > section.p-5 > div > div.row.my-5 > a.carousel-control-next
+{
+  height: 40%;
+  position: absolute;
+  top: 15%;
+  right: 3.2rem;
+}
+
+@media (max-width:990px;)
+{
+  body > section.p-5 > div > div.row.my-5 > a.carousel-control-next
+  {
+    height: 40%;
+    position: absolute;
+    top: 25%;
+    right: 0;
+  }
+}
