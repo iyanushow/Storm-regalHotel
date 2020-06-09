@@ -6,11 +6,7 @@
 
 
 
-.contactbtn{
-    
-    border: 1px solid #FF00EE;
-    
-}
+
 body{
     background: #2F303A;
    color: white;
@@ -98,7 +94,11 @@ position: absolute;
   color: #EF5F25;
 }
 @media screen and (max-width: 800px){
-  
+    .intro-1{
+          font-size: 35px;
+          text-align: center;
+          word-wrap: keep-all;
+      }
       
     
   
