@@ -298,7 +298,7 @@ section#contact {
 {
   height: 40%;
   position: absolute;
-  top: 15%;
+  top: 35%;
   /* right: 3.2rem; */
 }
 
@@ -306,8 +306,8 @@ body > section.p-5 > div > div.row.my-5 > a.carousel-control-next
 {
   height: 40%;
   position: absolute;
-  top: 15%;
-  right: 3.2rem;
+  top: 35%;
+  
 }
 
 /* @media (max-width:990px)
