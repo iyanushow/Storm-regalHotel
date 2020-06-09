@@ -310,7 +310,7 @@ body > section.p-5 > div > div.row.my-5 > a.carousel-control-next
   right: 3.2rem;
 }
 
-@media (max-width:990px;)
+/* @media (max-width:990px)
 {
   body > section.p-5 > div > div.row.my-5 > a.carousel-control-next
   {
@@ -319,4 +319,4 @@ body > section.p-5 > div > div.row.my-5 > a.carousel-control-next
     top: 25%;
     right: 0;
   }
-}
+} */
