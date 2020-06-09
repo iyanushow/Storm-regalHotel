@@ -288,6 +288,13 @@ section#contact {
       display: none;
     }
   }
+  @media (max-width: 600px) {
+    #footer > div.col.col-lg-3.logo > div > div:nth-child(1) > img,#media p
+    {
+      position: relative;
+      left: 20%;
+    }
+  }
   /* footer style-end */
 
 
