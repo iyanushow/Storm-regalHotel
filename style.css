@@ -6,11 +6,7 @@
 
 
 
-.contactbtn{
-    
-    border: 1px solid #FF00EE;
-    
-}
+
 body{
     background: #2F303A;
     color: white;
@@ -48,9 +44,10 @@ nav{
 }
 .nav-links li a:hover
 {
-    color: #ef5f25;
+    color: #EF5F25;
     position: relative;
     top: 3px;
+
 }
 .logo{
     float: left;
@@ -68,14 +65,19 @@ header{
     color: white;
     list-style-type: none;
  }
+ .brand:hover
+ {
+     color: white;
+     text-decoration: none;
+ }
  .intro{
 position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-shadow: 0px 4px 30px rgba(0, 0, 0, 0.5);
-  font-family: 'Poppins', sans-serif;
   color: white;
+    font-family: 'Poppins', sans-serif;
  }
  .intro-1{
      font-size: 51px;
@@ -106,7 +108,11 @@ position: absolute;
   color: #EF5F25;
 }
 @media screen and (max-width: 800px){
-  
+    .intro-1{
+          font-size: 35px;
+          text-align: center;
+          word-wrap: keep-all;
+      }
       
     
   
@@ -151,6 +157,7 @@ position: absolute;
     }
     .nav-links li a{
         font-size: 25px;
+        
     }
     .line{
         width: 20px;
