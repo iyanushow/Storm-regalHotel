@@ -9,7 +9,31 @@
         <meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=no">
     </head>
     <body>
-        <div class="top-sec">
+          <!-- navigation -->
+        <header>
+            <nav>
+                <div class="hamburger"  onclick="myFunction(this)">
+                    <div class="bar1 line"></div>
+                    <div class="bar2 line"></div>
+                    <div class="bar3 line"></div>
+                </div>
+                    <a href="index.html" style=" position: absolute;
+            left: 45px; top: 10px;" class="logo"><span class="logo"><img src="img/Asset 2-8 1.svg"></span></a>
+                <a href="index.html" class="brand" style="text-align: left; vertical-align: middle;  position: absolute;
+            left: 100px; top: 30px;"><h1>Regal Hotel</h1></a>
+                <ul class="nav-links">
+            
+                
+                    <li><a href="#">Download</a></li>
+                    <li><a href="#">Facilities</a></li>
+                    <li><a href="offers.html">Rooms</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    
+                </ul>
+            </nav>
+        </header>
+        <!-- navigation end -->
+        <div class="top-sec mt-5 pt-3">
             <div class="contact-section">
                     <h2 class="heading">Contact us</h2> 
                     <div class="sec-2 d-flex">  
@@ -40,33 +64,96 @@
                                 </div>
                             </div>
                         </div>  
-                        <div class="form">
+                        <div class="form" id="contact-form">
                             <input class="form-input" type="text" placeholder="Enter your name">
                             <input class="form-input" type="email" placeholder="Enter your email">
                             <input class="form-input" type="text" placeholder="Give us a short description">
-                            <button class="btn"><p class="send-btn">Send</p></button>
+                            <button class="btn" id="contact-button"><p class="send-btn">Send</p></button>
                         </div>     
                     </div>
             </div>
         </div>
-        <div class="sec-3">
-            <div class="down-sec d-flex">
-                <div class="sec-3-left">
-                    <div class="info">
-                        <h2 class="heading-3">Download our Mobile app</h2>
-                        <p class="message">Book rooms easily on your mobile phone</p>
-                        <image class="img-2" src="images2/fghfgh1.png"></image>
-                    </div>
+        <section id="contact" class="contact mt-4  pt-5 px-5">
+            <div id="forms">
+              <div class="row mb-5">
+                <div class="col-12 col-md-12 col-lg-6 mb-md-5">
+                  <h2>Download our mobile app</h2>
+                  <p>Book rooms easily on our mobile phone</p>
+                  <div class="icons">
+                    <a href="#"><img src="images/apple.png" alt="icon" ></a>
+                    
+                  </div>
                 </div>
-                <div class="sec-3-right">
-                        <h2 class="heading-2">Subscribe to our newsletter</h2>
-                    <div class="form-2">  
-                        <input class="form-input-2" type="text"placeholder="Enter your name">
-                        <input class="form-input-2" type="email" placeholder="Enter your e-mail">
-                        <button class="btn"><p class="send-btn">SIGN UP</p></button>
+                <div class="col col-md-12 col-lg-6">
+                  <h2>Subscribe to our Newsletter</h2>
+                  <form>
+                    <div class="form-group">
+                      
+                      <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Email address">
+                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                     </div>
+                    <div class="form-group">
+                  
+                      <input type="password" class="form-control" placeholder="Password" >
+                    </div>
+                    <div class="form-group form-check">
+                      <input type="checkbox" class="form-check-input" id="offers">
+                      <label class="form-check-label" for="offers">Send me emails and updates of new offers</label>
+                    </div>
+                    <button type="submit" class="btn btn-warning">SIGN UP</button>
+                  </form>
                 </div>
+              </div>
             </div>
-        </div>
+            <div class="row mt-5 mb-3 py-4" id="footer">
+                <div class="col col-lg-3 rem">
+                  <h5>REGAL HOTEL</h5>
+                  <a href="#"><P>Site Map</P></a>
+                  <a href="#"><P>FAQ</P></a>
+                  <a href="#"><P>Sustainability</P></a>
+                  <a href="#"><P>Property Map</P></a>
+                  <a href="#"><P>Document Library</P></a>
+                  <a href="#"><P>Responsilble balling</P></a>
+                </div>
+                <div class="col col-lg-3 rem">
+                  <h5>Guest services</h5>
+                  <a href="#"><P>Premier</P></a>
+                  <a href="#"><P>Your reservation</P></a>
+                  <a href="#"><P>Guest Receipt</P></a>
+                  <a href="#"><P>Conceierge services</P></a>
+                  <a href="#"><P>Gift cards & coupons</P></a>
+                  <a href="#"><P> Guest Sign-up</P></a>
+                </div>
+                <div class="col col-lg-3 rem">
+                  <h5>More</h5>
+                  <a href="#"><P>Terms and Conditions</P></a>
+                  <a href="#"><P> Regal Magazine</P></a>
+                  <a href="#"><P>Hotel Development</P></a>
+                  <a href="#"><P>Residences</P></a>
+                  <a href="#"><P>Privacy policy</P></a>
+                
+                </div>
+                <div class="col col-lg-3 logo">
+                  <div class="row">
+                    <div class="col-12"> <img src="images/new.png" alt="logo.png"> 
+                    </div>
+                    <div class="col-12" id="media">
+                      <p class="contact-line m-2"><a href="#"><i class="fab fa-facebook"></i></a></p>
+                      <p class="contact-line m-2"> <a href="#"><i class="fab fa-instagram"></i></a></p>
+                      <p class="contact-line m-2"><a href="#"><i class="fab fa-twitter"></i></a></p>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="copyright">
+              <p> <span><i class="far fa-copyright"></i></span> COPYRIGHT REGAL HOTELS LLC 2020</p>
+            </div>
+          
+              
+                  
+          </section>
+          
     </body>
 </html>
