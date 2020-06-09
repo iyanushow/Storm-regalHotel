@@ -13,7 +13,7 @@
 }
 body{
     background: #2F303A;
-   color: white;
+    color: white;
     font-family: 'Poppins', sans-serif;
 }
 * {
@@ -46,6 +46,12 @@ nav{
     font-size: 16px;
     color: white;
 }
+.nav-links li a:hover
+{
+    color: #ef5f25;
+    position: relative;
+    top: 3px;
+}
 .logo{
     float: left;
 }
@@ -68,6 +74,8 @@ position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
   text-shadow: 0px 4px 30px rgba(0, 0, 0, 0.5);
+  font-family: 'Poppins', sans-serif;
+  color: white;
  }
  .intro-1{
      font-size: 51px;
@@ -85,7 +93,7 @@ position: absolute;
 
  }
  .book a:link,.book a:visited {
-  background-color: #EF5F25;
+  background-color: #ef5f25;
   color: white;
   padding: 14px 25px;
   text-align: center;
@@ -94,7 +102,7 @@ position: absolute;
 }
 
 .book a:hover{
-  background-color: white;
+  background-color: #e94200;
   color: #EF5F25;
 }
 @media screen and (max-width: 800px){
@@ -111,7 +119,7 @@ position: absolute;
         z-index: 2;
         clip-path: circle(50px at 90% -10% );
         -webkit-clip-path: circle(50px at 90% -10% );
-pointer-events: none;
+        pointer-events: none;
         transition: all 1s ease-in-out;
         font-family: 'Poppins', sans-serif;
     }
@@ -166,6 +174,11 @@ pointer-events: none;
     nav{
         position: relative;
     }
+    .nav-links li a:hover
+    {
+        color: white;
+        
+    }
     .hamburger{
         position: absolute;
         cursor: pointer;
@@ -176,4 +189,93 @@ pointer-events: none;
     }
    
 }
+/* body > header > div > h1
+{
+    font-family: 'p';
+} */
 
+
+
+/* footer style-start */
+section#contact {
+    background-color: #181920cf;
+   
+  }
+  
+  section#contact #forms {
+    color: white;
+  }
+  
+  section#contact #forms #media p {
+    float: left;
+  }
+  
+  section#contact #forms .col-lg-6 {
+    height: 70%;
+    font-family: "Poppins";
+  }
+  
+  section#contact #forms .col-lg-6 h2, section#contact #forms .col-lg-6 p, section#contact #forms .col-lg-6 label {
+    font-weight: 300;
+  }
+  
+  section#contact #footer .col-lg-3 h5, section#contact #footer .col-lg-3 p {
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 40px;
+    margin-bottom: 0;
+    color: white;
+  }
+  
+  section#contact #footer .col-lg-3 h5:hover, section#contact #footer .col-lg-3 p:hover {
+    -webkit-text-decoration: underline white solid;
+            text-decoration: underline white solid;
+  }
+  
+  section#contact #footer .col-lg-3 .contact-line {
+    float: left;
+  }
+  
+  section#contact #footer .col-lg-3 .contact-line i {
+    color: white;
+  }
+  
+  form .form-control {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+  }
+  
+  form .btn-warning {
+    background-color: #EF5F25;
+    border: 0;
+    border-radius: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .copyright {
+    text-align: center;
+    font-family: 'Muli', serif;
+    font-style: normal;
+    font-size: 14px;
+  }
+  
+  @media (max-width: 830px) {
+    .logo {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+    }
+    .rem {
+      display: none;
+    }
+  }
+  /* footer style-end */
