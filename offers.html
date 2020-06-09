@@ -6,11 +6,39 @@
     <title>Offers and Suite</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="./offers.css"> -->
-    <link rel="stylesheet" href="offerstyle.css">
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/1000c4873b.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body id="body">
+  <!-- navigation -->
+  
+  <nav>
+      <div class="hamburger"  onclick="myFunction(this)">
+          <div class="bar1 line"></div>
+          <div class="bar2 line"></div>
+          <div class="bar3 line"></div>
+      </div>
+      <a href="index.html" style=" position: absolute;
+          left: 45px; top: 10px;" class="logo"><span class="logo"><img src="img/Asset 2-8 1.svg"></span>
+      </a>
+      <a href="index.html" class="brand" style="text-align: left; vertical-align: middle;  position: absolute;
+          left: 100px; top: 30px;"><h1>Regal Hotel</h1>
+      </a>
+      <ul class="nav-links">              
+  
+      
+          <li><a href="#">Download</a></li>
+          <li><a href="#">Facilities</a></li>
+          <li><a href="./offers.html">Rooms</a></li>
+          <li><a href="./Contact.html">Contact</a></li>
+          
+      </ul>
+  </nav>
+    
+  
+  <!-- navigation end -->
+
     <!-----Rooms------------------------>
 <section class="offers-area px-4 py-5" id="offers-area">
   <div class="container-fluid offers-list">
@@ -107,7 +135,7 @@
       <div class="row">
           <div class="card-deck">
               <div class="col-lg-4 col-md-6 col-sm-12 py-4">
-                  <a href="#">
+                  <a href="#" id="card-body">
                     <div class="card">
                   <img src="images/express.png" class="card-img-top" alt="Express Suite">
                   <div class="card-body">
@@ -115,6 +143,7 @@
                       <p class="room-items">Amsterdam | 1 King Bed | Max Guests : 3</p>
                       <h6 class="room-price">$1500/Night</h6>
                       <p class="card-text">Professional wardrobe packing, unpacking, Over 130 TV channels in multiple languages, Complimentary welcome amenity, Signature welcome drink upon arrival, two bottles champagne.</p>
+                      
                   </div>
                   </div>
                   </a>
@@ -127,7 +156,8 @@
                       <h5 class="card-title">Lucid Suite</h5>
                       <p class="room-items">Amsterdam | 1 King Bed | Max Guests : 3</p>
                       <h6 class="room-price">$2000/Night</h6>
-                      <p class="card-text">Professional wardrobe packing, unpacking, Over 130 TV channels in multiple languages, Complimentary welcome amenity, Signature welcome drink upon arrival, two bottles champagne.</p>
+                      <p class="card-text" >Professional wardrobe packing, unpacking, Over 130 TV channels in multiple languages, Complimentary welcome amenity, Signature welcome drink upon arrival, two bottles champagne.</p>
+                      
                   </div>
                   </div>
                   </a>
@@ -141,6 +171,7 @@
                       <p class="room-items">Amsterdam | 1 King Bed | Max Guests : 3</p>
                       <h6 class="room-price">$7000/Night</h6>
                       <p class="card-text">Professional wardrobe packing, unpacking, Over 130 TV channels in multiple languages, Complimentary welcome amenity, Signature welcome drink upon arrival, two bottles champagne.</p>
+                      
                   </div>
                   </div>
                   </a>
