@@ -290,6 +290,7 @@ pointer-events: none;
 }
 .info-sec-2{
     display: inline-block;
+    font-weight: 100;
 }
 .icon{
     height: 30px;
@@ -298,7 +299,7 @@ pointer-events: none;
 }
 .phone{
     font-family: 'poppins';
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: white;
     margin-bottom: 0;
 }
@@ -314,17 +315,18 @@ pointer-events: none;
     font-family: 'Poppins';
     color: white;
     margin-bottom: 0;
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 .email{
     color: white;
     font-family: 'Poppins';
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 .message{
     font-family: 'Poppins';
     color: white;
-    font-size: 0.9rem;
+    font-size: 1rem;
+    font-weight: 100;
 }
 .mail-sec{
     padding-bottom: 12px;
@@ -348,9 +350,18 @@ pointer-events: none;
     margin-left: auto;
     margin-right: auto;
     border-right: none;
+    border-radius: 5px;
     font-family: 'Poppins';
-    font-size: 0.6rem;
+    font-size: 1rem;
     margin-bottom: 30px;
+    box-shadow: none;
+}
+.form-input:focus{
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 #contact-button{
     background-color: #EF5F25 !important;
@@ -471,6 +482,7 @@ section#contact {
     border-radius: 0;
     width: 100%;
     text-align: center;
+    color: white;
   }
   form .btn-warning:hover
   {
