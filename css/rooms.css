@@ -630,3 +630,14 @@ body{
     font-weight: 150;
   }
 }
+@media(max-width:330px)
+{
+    #offers-area
+    {
+        margin-top: 15%;
+    }
+    #offers-area a.btn
+    {
+       display: none;
+    }
+}

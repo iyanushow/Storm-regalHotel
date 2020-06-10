@@ -316,6 +316,16 @@ position: absolute;
   height:400px;
   
 }
+@media (max-width:600px)
+{
+  .about-img{
+   
+    
+    width:300px;
+   height: 300px;
+    
+  }
+}
 h1.text-center,body > div.vision > h1
 {
   margin-top: 100px;
@@ -640,4 +650,12 @@ body{
     font-size: 13px;
     font-weight: 150;
   }
+}
+@media(max-width:330px)
+{
+    
+    #book
+    {
+        font-size: 16px;
+    }
 }
