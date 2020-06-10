@@ -276,46 +276,20 @@ position: absolute;
     background-color: #FFFFFF;
     color: #EF5F25;
   }
-  
-  body > section.rooms > div.row.mt-5.mb-4 > div > i
-  {
-   
+ /* .dont-know .circle-play{
+   position: fixed;
   position: absolute;
-  top: 300%;
+  top: 285%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 100;
  }
- @media (max-width: 992px) {
-  body > section.rooms > div.row.mt-5.mb-4 > div > i
-  {
-   
+ .dont-know .play{
+   position: fixed;
   position: absolute;
-  top: 525%;
+  top: 287%;
   left: 50%;
-  
- }
- @media (max-width: 769px) {
-  body > section.rooms > div.row.mt-5.mb-4 > div > i
-  {
-   
-  position: absolute;
-  top: 475%;
-  left: 50%;
-  
- }
- @media (max-width: 535px) {
-  body > section.rooms > div.row.mt-5.mb-4 > div > i
-  {
-   
-  position: absolute;
-  top: 455%;
-  left: 50%;
-  
- }
-  
-}
-
+  transform: translate(-50%, -50%);
+ } */
  .about-us
  {
   
@@ -384,11 +358,10 @@ a:hover
 }
 
 /* footer style-start */
-section#contact 
-{
+section#contact {
     background-color: #181920cf;
    
-}
+  }
   
   section#contact #forms {
     color: white;
@@ -577,8 +550,6 @@ color: #FFFFFF;
   left: 20%;
 }
 
-.card .btn:hover
-{
+.card .btn:hover{
   background-color:  #b6532c;
 } 
-
