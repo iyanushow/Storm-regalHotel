@@ -264,13 +264,16 @@ hr{
         display: block !important;
     }
 }
-.heading{
-    color: white;
-    font-family: 'Poppins';
-    text-align: center;
-    font-weight: 300;
-    text-decoration: underline #EF5F25;
+body > div > div > div.row.text-center > div > h3
+{
+    font-weight: 200;
 }
+.underline{
+    width: 130px;
+    border: 1px solid #EF5F25;
+    margin: auto;
+}
+
 .contact-info{
     display: inline-block;
     width: 60%;

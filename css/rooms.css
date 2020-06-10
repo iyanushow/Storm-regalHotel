@@ -17,9 +17,6 @@ body{
 
 nav{
     height: 10vh;
-    background: transparent;
-    position: absolute;
-    width: 100%;
     
 }
 .nav-links{
@@ -183,7 +180,9 @@ position: absolute;
         transform: rotate(45deg) translate(-5px, -8px);
     }
 
-    
+    nav{
+        position: relative;
+    }
     .nav-links li a:hover
     {
         color: white;
@@ -560,7 +559,15 @@ color: #FFFFFF;
 .card .btn:hover{
   background-color:  #b6532c;
 } 
-
+.underline{
+    width: 130px;
+    border: 1px solid #EF5F25;
+    margin: auto;
+}
+#offers-area > div.image > h3
+{
+    font-weight: 200;
+}
 /* /* @media screen and (max-width: 470px)
 {
   header{
@@ -599,30 +606,12 @@ color: #FFFFFF;
 @media screen and (max-width: 470px)
 {
   header{
-    background: url(../images/small/headersmall.png);
+    background: url(../images/xs/header.png);
     background-size: cover;
-    height: 350px;
-
+    
     
    
-  } 
-  div.jumbotron
-  {
-    height: 300px;
-    position: relative;
-    top: 80%;
-    
-  }  
-  .display-4, p.lead
-  {
-    font-size: 24px;
-    font-weight: 200;
-    text-align: center;
-  } 
-  .btn-primary
-  {
-    width: 50%;
-  }
+  }    
 } 
 body{
   overflow-x: hidden;
