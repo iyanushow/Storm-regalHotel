@@ -376,3 +376,20 @@ body > section.p-5 > div > div.row.my-5 > a.carousel-control-next
     font-size: 24px;
   }
 }
+@media (min-width:331px) and (max-width:418px)
+{
+  body > nav > a.brand > h1
+  {
+    font-size: 2rem;
+  }
+
+  
+}
+@media (max-width:330px)
+{
+  body > nav > a.brand > h1
+  {
+    font-size: 24px;
+  }
+  
+}
