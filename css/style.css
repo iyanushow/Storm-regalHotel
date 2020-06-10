@@ -732,7 +732,7 @@ body{
 @media (max-width:600px)
 {
   
-  #offers-area > div.image > h3,h2.card-title
+  h2.card-title
   {
     font-size: 24px;
   }
