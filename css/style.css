@@ -741,6 +741,16 @@ body{
     font-size: 13px;
     font-weight: 150;
   }
+  
+}
+@media (max-width:420px)
+{
+  #download > a > img
+  {
+    display: none;
+  }
+  
+  
 }
 @media(max-width:330px)
 {
@@ -749,4 +759,9 @@ body{
     {
         font-size: 16px;
     }
+}
+#forms > div > div.col-12.col-md-12.col-lg-6.mb-5 > a
+{
+  color: white;
+
 }

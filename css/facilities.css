@@ -393,3 +393,17 @@ body > section.p-5 > div > div.row.my-5 > a.carousel-control-next
   }
   
 }
+@media (max-width:420px)
+{
+  #download > a > img
+  {
+    display: none;
+  }
+  
+  
+}
+#forms > div > div.col-12.col-md-12.col-lg-6.mb-5 > a
+{
+  color: white;
+
+}
