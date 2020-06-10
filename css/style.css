@@ -1,0 +1,624 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background: #2F303A;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     
+} 
+
+
+nav{
+    height: 10vh;
+    
+}
+.nav-links{
+    display: flex;
+    list-style-type: none;
+    width: 50%;
+    /* font-size: 50px; */
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+   
+}
+hr{
+  height:2px;
+  width: 100px;
+  align-self:center;
+  background-color:#EF5F25;
+}
+.nav-links li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+.nav-links li a:hover
+{
+    color: #EF5F25;
+    position: relative;
+    top: 3px;
+
+}
+.logo{
+    float: left;
+}
+header
+{
+    background: url(../images/header.png);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+ .brand{
+       text-decoration: none;
+    font-size: 16px;
+    color: white;
+    list-style-type: none;
+ }
+ .brand:hover
+ {
+     color: white;
+     text-decoration: none;
+ }
+ .intro{
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 0px 4px 30px rgba(199, 199, 199, 0.5);
+  color: white;
+  background-color: transparent;
+    font-family: 'Poppins', sans-serif;
+ }
+ .intro-1{
+     font-size: 51px;
+ }
+ .lead{
+  
+     text-align: center;
+ }
+ .rules
+ {
+   align-self: center;
+ }
+ #book{
+     text-align: center;
+     background-color: #ef5f25;
+     border: none;
+     /* position: relative;
+     left: 35%; */
+ }
+ #book a{
+     color: white;
+     text-decoration: none;
+
+ }
+  #rule-book
+  {
+    display: flex;
+    justify-content: center;
+  }
+ 
+#rule-book a:hover{
+  background-color: #dd5b27;
+  color: #EF5F25;
+}
+@media screen and (max-width: 800px){
+    .intro-1{
+          font-size: 30px;
+          text-align: center;
+          word-wrap: keep-all;
+      }
+      
+    
+  
+    .nav-links{
+        position: fixed;
+        background: #EF5F25;
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        z-index: 2;
+        clip-path: circle(50px at 90% -10% );
+        -webkit-clip-path: circle(50px at 90% -10% );
+        pointer-events: none;
+        transition: all 0.5s ease-in-out;
+        font-family: 'Poppins', sans-serif;
+    }
+    .nav-links.open {
+        clip-path: circle(2000px at 90% -10%);
+        -webkit-clip-path: circle(2000px at 90% -10%);
+        pointer-events: all;
+    }
+   
+    .nav-links li:nth-child(1){
+        transition: all 0.5s ease 0.2s;
+    }
+    .nav-links li:nth-child(2){
+        transition: all 0.5s ease 0.4s;
+    }
+    .nav-links li:nth-child(3){
+        transition: all 0.5s ease 0.6s;
+    }
+    .nav-links li:nth-child(4){
+        transition: all 0.5s ease 0.8s;
+    }  
+  .nav-links li:nth-child(5){
+    transition: all 0.5s ease 0.10s;
+    }
+    
+    .nav-links li a{
+        font-size: 25px;
+        
+    }
+    .line{
+        width: 20px;
+        height: 3px;
+        background: black;
+        margin: 5px;
+        transition: 0.4s;
+    }
+    .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-5px, 6px);
+        transform: rotate(-45deg) translate(-5px, 6px);
+      }
+      
+      .change .bar2 {opacity: 0;}
+      
+      .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-5px, -8px);
+        transform: rotate(45deg) translate(-5px, -8px);
+    }
+
+    nav{
+        position: relative;
+    }
+    .nav-links li a:hover
+    {
+        color: white;
+        
+    }
+    .hamburger{
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 50%;
+        transform: translate(-5%, -50%);
+        z-index: 10;
+    }
+  .carousel-inner img{
+     max-width: 100%;
+     height: auto;
+     
+  }
+   .card-body h6{
+       font-size: 20px;
+   
+   }
+}
+
+/* rooms */
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  
+  }
+  .rooms-hr{
+    height:2px;
+    width: 100px;
+    align-self:center;
+    background-color:#EF5F25;
+
+  }
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    color: #2F303A;
+   
+    text-align: start;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  .card .container p,.card .container h2
+  {
+    font-weight: 200;
+  }
+  #location
+  {
+    text-align: center;
+    font-weight: 200;
+  }
+  .container {
+    padding: 0 16px;
+    
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: #918383;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #EF5F25;
+    text-align: center;
+    cursor: pointer;
+    width: 25%;
+  }
+  h1{
+    font-weight: 300;
+  }
+  .button:hover {
+    background-color: #FFFFFF;
+    color: #EF5F25;
+  }
+ /* .dont-know .circle-play{
+   position: fixed;
+  position: absolute;
+  top: 285%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ }
+ .dont-know .play{
+   position: fixed;
+  position: absolute;
+  top: 287%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ } */
+ .about-us
+ {
+  
+  background-color:#181920cf ;
+ }
+ #clear
+ {
+   height: 30px;
+ }
+.about-img{
+  /* float: left; */
+ font-size: 1rem;
+  
+  text-align: justify;
+  
+  width:550px;
+  height:400px;
+  
+}
+h1.text-center,body > div.vision > h1
+{
+  margin-top: 100px;
+}
+body > section.rooms > div
+{
+  margin-top: 100px;
+}
+/* @media (max-width: 660px) {
+  .about-img{
+   
+  
+    width:600px;
+    height:400px;
+    
+  }
+  
+} */
+.clearfix {
+  overflow: auto;
+  
+  
+}
+#text-about
+{
+  
+  justify-content: center;
+  font-weight: 100;
+}
+
+
+/*
+.about- p{
+  
+  
+  position: absolute;
+  left: 100px;
+}
+ body > header > div > h1
+{
+    font-family: 'p';
+} */
+
+a:hover
+{
+  text-decoration: none;
+}
+
+/* footer style-start */
+section#contact {
+    background-color: #181920cf;
+   
+  }
+  
+  section#contact #forms {
+    color: white;
+  }
+  
+  section#contact #forms #media p {
+    float: left;
+  }
+  
+  section#contact #forms .col-lg-6 {
+    height: 70%;
+    font-family: "Poppins";
+  }
+  
+  section#contact #forms .col-lg-6 h2, section#contact #forms .col-lg-6 p, section#contact #forms .col-lg-6 label {
+    font-weight: 300;
+  }
+  
+  section#contact #footer .col-lg-3 h5, section#contact #footer .col-lg-3 p {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 40px;
+    margin-bottom: 0;
+    color: white;
+  }
+  
+  section#contact #footer .col-lg-3 h5:hover, section#contact #footer .col-lg-3 p:hover {
+    -webkit-text-decoration: underline white solid;
+            text-decoration: underline white solid;
+  }
+  
+  section#contact #footer .col-lg-3 .contact-line {
+    float: left;
+  }
+  
+  section#contact #footer .col-lg-3 .contact-line i {
+    color: white;
+  }
+  
+  form .form-control {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+  }
+  
+  form .btn-warning {
+    background-color: #EF5F25;
+    border: 0;
+    border-radius: 0;
+    width: 100%;
+    text-align: center;
+  }
+  form .btn-warning:hover
+  {
+    background-color: #e94200;
+    
+  }
+  .copyright {
+    text-align: center;
+    font-family: 'Muli', serif;
+    font-style: normal;
+    font-size: 14px;
+  }
+  
+  @media (max-width: 830px) {
+    .logo {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+    }
+    .rem {
+      display: none;
+    }
+  }
+  @media (max-width: 600px) {
+    #footer > div.col.col-lg-3.logo > div > div:nth-child(1) > img,#media p
+    {
+      position: relative;
+      left: 20%;
+    }
+  }
+
+  @media (max-width: 600px)
+  {
+    #forms  h2
+    {
+      font-size: 14px;
+    }
+    
+  }
+  /* footer style-end */
+
+
+
+  /* offer page styling */
+  
+  .image {  
+    width: 100%;
+   
+    text-align: center;
+ }
+ 
+ h3 {  
+    font-style: light;
+    font-size:  40px;
+    line-height: 72px,100%;
+    align-items: center;
+    color: white;
+ }
+.card{
+    border: none;
+    box-shadow: 6px 6px 60px rgba(0, 0, 0, 0.2);
+    background: rgba(24, 25, 32, 0.81);
+}
+.card:hover
+{
+  text-decoration: none;
+  position: relative;
+  bottom: 5px;
+}
+
+.card-title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.heading{
+    color: white;
+    text-align: center;
+}
+.room-items{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    
+    display: flex;
+    align-items: center;
+    
+    color: rgba(255, 255, 255, 0.5);
+}
+#twins-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.room-price{
+    font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 36px;
+display: flex;
+align-items: center;
+color: rgba(255, 255, 255, 0.8);
+}
+.card-text{
+    font-style: normal;
+font-weight: 300;
+font-size: 14px; 
+line-height: 21px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+.card .btn{
+  background-color:#EF5F25;
+  border: none;
+  width: 178px;
+  position: relative;
+  left: 20%;
+}
+
+.card .btn:hover{
+  background-color:  #b6532c;
+} 
+
+/* /* @media screen and (max-width: 470px)
+{
+  header{
+    background: url(../images/xs/header.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+  }    
+} 
+
+@media (max-width: 580px) and (min-width: 471px)
+{
+  header{
+    background: url(../images/small/header.jpg);
+    background-size: cover;
+    width: 100%;
+  }
+}
+@media (max-width: 700px) and (min-width: 582px)
+{
+  header{
+    background: url(../images/medium/header.jpg);
+    background-size: cover;
+    width: 100%;
+  }
+}
+@media(max-width: 940px) and (min-width: 701px)
+{
+  header{
+    background: url(../images/lg/header.jpg);
+    background-size: cover;
+    width: 100%;
+  }
+} */
+
+@media screen and (max-width: 470px)
+{
+  header{
+    background: url(../images/xs/header.png);
+    background-size: cover;
+    
+    
+   
+  }    
+} 
+body{
+  overflow-x: hidden;
+}
+
+@media (max-width:600px)
+{
+  
+  #offers-area > div.image > h3,h2.card-title
+  {
+    font-size: 24px;
+  }
+  p.card-text
+  {
+    font-size: 13px;
+    font-weight: 150;
+  }
+}
