@@ -311,7 +311,7 @@ position: absolute;
   
   text-align: justify;
   
-  width:600px;
+  width:550px;
   height:400px;
   
 }
@@ -323,16 +323,16 @@ body > section.rooms > div
 {
   margin-top: 100px;
 }
-@media (max-width: 660px) {
+/* @media (max-width: 660px) {
   .about-img{
-    /* float: left; */
+   
   
     width:600px;
     height:400px;
     
   }
   
-}
+} */
 .clearfix {
   overflow: auto;
   
@@ -607,4 +607,18 @@ color: #FFFFFF;
 } 
 body{
   overflow-x: hidden;
+}
+
+@media (max-width:600px)
+{
+  
+  #offers-area > div.image > h3,h2.card-title
+  {
+    font-size: 24px;
+  }
+  p.card-text
+  {
+    font-size: 13px;
+    font-weight: 150;
+  }
 }

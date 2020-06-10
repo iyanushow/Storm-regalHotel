@@ -15,7 +15,6 @@ body{
      
 } 
 
-
 nav{
     height: 10vh;
     
@@ -24,49 +23,54 @@ nav{
     display: flex;
     list-style-type: none;
     width: 50%;
-    font-size: 50px;
+    /* font-size: 50px; */
     font-family: 'Poppins', sans-serif;
     height: 100%;
     justify-content: space-around;
     align-items: center;
     margin-left: auto;
-    
    
 }
-
+hr{
+  height:2px;
+  width: 100px;
+  align-self:center;
+  background-color:#EF5F25;
+}
 .nav-links li a{
     text-decoration: none;
     font-size: 16px;
     color: white;
-    
 }
 .nav-links li a:hover
 {
-  color:#EF5F25;
-  position: relative;
-  top: 3px;
+    color: #EF5F25;
+    position: relative;
+    top: 3px;
+
 }
 .logo{
     float: left;
 }
-.brand{
-    text-decoration: none;
- font-size: 16px;
- color: white;
- list-style-type: none;
-}
-.brand:hover
-{
-text-decoration: white;
-color: white;
-}
 
+ .brand{
+       text-decoration: none;
+    font-size: 16px;
+    color: white;
+    list-style-type: none;
+ }
+ .brand:hover
+ {
+     color: white;
+     text-decoration: none;
+ }
+ 
+ 
 @media screen and (max-width: 800px){
-    /* .intro-1{
-          font-size: 35px;
-          text-align: center;
-          word-wrap: keep-all;
-      } */
+    
+      
+    
+  
     .nav-links{
         position: fixed;
         background: #EF5F25;
@@ -76,8 +80,8 @@ color: white;
         z-index: 2;
         clip-path: circle(50px at 90% -10% );
         -webkit-clip-path: circle(50px at 90% -10% );
-pointer-events: none;
-        transition: all 1s ease-in-out;
+        pointer-events: none;
+        transition: all 0.5s ease-in-out;
         font-family: 'Poppins', sans-serif;
     }
     .nav-links.open {
@@ -85,9 +89,7 @@ pointer-events: none;
         -webkit-clip-path: circle(2000px at 90% -10%);
         pointer-events: all;
     }
-    .nav-links li{
-        opacity: 0;
-    }
+   
     .nav-links li:nth-child(1){
         transition: all 0.5s ease 0.2s;
     }
@@ -103,17 +105,10 @@ pointer-events: none;
   .nav-links li:nth-child(5){
     transition: all 0.5s ease 0.10s;
     }
-    li.fade{
-        opacity: 1;
-    }
+    
     .nav-links li a{
         font-size: 25px;
-    }
-    .nav-links li a:hover
-    {
-      color:white;
-      position: relative;
-      top: 3px;
+        
     }
     .line{
         width: 20px;
@@ -137,6 +132,11 @@ pointer-events: none;
     nav{
         position: relative;
     }
+    .nav-links li a:hover
+    {
+        color: white;
+        
+    }
     .hamburger{
         position: absolute;
         cursor: pointer;
@@ -145,7 +145,7 @@ pointer-events: none;
         transform: translate(-5%, -50%);
         z-index: 10;
     }
-   
+  
 }
 /* nav style end */
 
