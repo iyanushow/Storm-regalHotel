@@ -455,7 +455,8 @@ section#contact {
     text-align: center;
     font-family: 'Muli', serif;
     font-style: normal;
-    font-size: 14px;
+    font-size: 10px;
+    font-weight: 200;
   }
   
   @media (max-width: 830px) {
@@ -637,12 +638,18 @@ color: #FFFFFF;
     top: 80%;
     
   }  
-  .display-4, p.lead
+  .display-4 
   {
     font-size: 24px;
-    font-weight: 200;
+    font-weight: 300;
     text-align: center;
   } 
+  p.lead
+  {
+    font-size: 10px;
+    font-weight: 200;
+  }
+ 
   .btn-primary
   {
     width: 50%;
