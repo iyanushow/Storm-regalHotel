@@ -804,7 +804,10 @@ body
 {
   font-weight: 200;
 }
-
+ div.section-title.text-center
+{
+  font-weight: 200;
+}
 .carousel-item.active,
 .carousel-item-next,
 .carousel-item-prev 
