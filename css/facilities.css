@@ -376,6 +376,10 @@ body > section.p-5 > div > div.row.my-5 > a.carousel-control-next
   top: 35%;
   
 }
+#footer div ul>li
+{
+  font-weight: 200;
+}
 
 /* @media (max-width:990px)
 {

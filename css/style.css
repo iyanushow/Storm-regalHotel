@@ -221,14 +221,20 @@ height: 30px;
 
 a.carousel-control-prev
 {
-  top: 190%;
+  top: 130%;
   left: 0;
 }
 a.carousel-control-next
 {
-  top: 190%;
+  top: 130%;
   right: 0;
 }
+a.carousel-control-next,a.carousel-control-prev 
+{
+  height: 100%;
+}
+
+
 /* OFFER SECTION */
 
 /* offer page styling */
@@ -538,6 +544,7 @@ form .btn-warning:hover
   text-align: center;
   font-family: 'Muli', serif;
   font-style: normal;
+  font-weight: 300;
   font-size: 14px;
 }
 
@@ -577,7 +584,7 @@ form .btn-warning:hover
   {
     font-size: 14px;
   }
-  a.carousel-control-next,a.carousel-control-prev
+  a.carousel-control-next span,a.carousel-control-prev span
   {
     display: none;
   }
@@ -788,9 +795,17 @@ body
 {
   overflow-x: hidden;
 }
+#contact > div.copyright > p
+{
+  margin-bottom: 0;
+  font-weight: 100;
+    font-size: 10px;
+}
 
-
-
+#footer div ul>li
+{
+  font-weight: 200;
+}
 
 .carousel-item.active,
 .carousel-item-next,

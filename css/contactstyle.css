@@ -285,6 +285,11 @@ section#contact {
     font-style: normal;
     font-size: 14px;
   }
+
+  #footer div ul>li
+{
+  font-weight: 200;
+}
   
   @media (max-width: 830px) 
   {
