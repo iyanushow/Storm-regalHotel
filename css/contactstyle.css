@@ -19,13 +19,24 @@ nav{
     height: 10vh;
     
 }
+.nav-menu{
+  background: #1C1D25;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 10px;
+
+}
+.nav-menu-list
+{
+  padding-top: 20px;
+}
 .nav-links{
     display: flex;
     list-style-type: none;
     width: 50%;
     /* font-size: 50px; */
     font-family: 'Poppins', sans-serif;
-    height: 100%;
+    /* height: 100%; */
     justify-content: space-around;
     align-items: center;
     margin-left: auto;
@@ -151,264 +162,46 @@ hr{
 
 
 /* contact-page */
-
-.top-sec{
-    background-color: #2F303A;
-    
-}
-
-@media screen and (max-width:864px){
-    .heading{
-        font-size: 26px;
-    }
-    .address,.email,.phone,.message{
-        font-size: 0.8rem !important;
-    }
-}
-
-@media screen and (min-width: 866px){
-    #contact-button{
-        margin-bottom: 20px!important;
-    }
-}
-@media screen and (max-width:672px){
-    .d-flex{
-        display: block !important;
-        display: block !important;
-    }
-    .contact-info{
-        display: block !important;
-        width: 60% !important;
-        margin-left: auto !important;
-        margin-right: auto !important;
-        text-align: center;
-    }
-    #contact-form{
-        display: block !important;
-        width: 60% !important;
-        margin-left: auto !important;
-        margin-right: auto !important;
-
-    }
-    #conatct-button{
-        margin-bottom: 20px !important;
-    }
-    .sec-3-left{
-        width: 60% !important;
-        margin-left: auto !important;
-        margin-right: auto !important;
-        margin-top: 0 !important;
-        padding-top: 5%;
-    }
-    .sec-3-right{
-        margin: auto !important;
-        width: 40%;
-        padding-top: 5%;
-    }
-    .info{
-        margin-left: 0 !important;
-        text-align: center;
-    }
-    .message{
-        text-align: center;
-    }
-    .phone{
-        display: inline-block;
-    }
-    .img-2{
-        margin: auto;
-        justify-content: center;
-    }
-}
-@media screen and (max-width:589px){
-    /* .nav-link{
-        font-size: 0.9rem !important;
-    } */
-    /* .reg{
-        font-size: 0.9rem !important;
-    } */
-    .heading{
-        font-size: 20px;
-    }
-}
-@media screen and (max-width: 507px){
-    .icon{
-        height: 20px !important;
-        width:20px !important;
-    }
-    .info{
-        width: 100% !important;
-        text-align: center;
-    }
-    .contact-info{
-        text-align: center;
-        font-size: 0.5rem;
-        width: 80% !important;
-    }
-    #contact-form{
-        width: 80% !important;
-    }
-    .heading-2{
-        font-size: 20px !important;
-    }
-    .form-2{
-        width: 80% !important;
-        margin-left: auto !important;
-        margin-right: auto !important;
-    }
-    .sec-3-right{
-        width: 80% !important;
-        text-align: center !important;
-    }
-    .d-flex{
-        display: block !important;
-    }
-}
-body > div > div > div.row.text-center > div > h3
-{
-    font-weight: 200;
-}
 .underline{
     width: 130px;
     border: 1px solid #EF5F25;
     margin: auto;
 }
-
-.contact-info{
-    display: inline-block;
-    width: 60%;
-    margin-top: 5%;
-}
-#contact-form{
-    display: inline-block;
-    width: 40%;
-    padding-top: 5%;
-}
-.info{
-    margin-left: 20%;
-}
-.phone-sec{
-    padding-bottom: 12px;
-    align-items: center;
-}
-.info-sec-2{
-    display: inline-block;
-}
-.icon{
-    height: 30px;
-    width: 30px;
-    margin-right: 15px;
-}
-.phone{
-    font-family: 'poppins';
-    font-size: 0.8rem;
-    color: white;
-    margin-bottom: 0;
-}
-.address-sec{
-    padding-bottom: 12px;
-    align-items: center;
-}
-.info-sec-3{
-    margin-left: 5%;
-    display: block;
-}
-.address{
-    font-family: 'Poppins';
-    color: white;
-    margin-bottom: 0;
-    font-size: 0.9rem;
-}
-.email{
-    color: white;
-    font-family: 'Poppins';
-    font-size: 0.9rem;
-}
-.message{
-    font-family: 'Poppins';
-    color: white;
-    font-size: 0.9rem;
-}
-.mail-sec{
-    padding-bottom: 12px;
-}
-.form{
-    background-color:#202027;
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-top: 5%;
-    text-align: center;
-}
-.form-input{
-    background-color: #202027;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    margin-bottom: 10px;
-}
-.form-input{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-right: none;
-    font-family: 'Poppins';
-    font-size: 0.6rem;
-    margin-bottom: 30px;
-}
-#contact-button{
-    background-color: #EF5F25;
-    text-align: center;
-    color: #212529;
-}
-#contact-button:hover
+body > section.p-5 > div > div.row.text-center > div > h3
 {
-    background-color: #e94200   
+    font-weight: 200;
 }
-
-.sec-2{
-    padding-bottom: 10%;
-}
-.sec-3{
+ /* form */
+ .form-bg{
     background-color: #202027;
 }
-.sec-3-left{
-    width: 60%;
-    margin-top: 5%;
-}
-.sec-3-right{
-    width: 40%;
-    margin-top: 5%;
-    margin-right: 5%;
-}
-.heading-2{
-    color: white;
-    font-family: 'Poppins';
-    font-size: 22px;
-    font-weight: 100;
-    text-align: center;
-}
-.img-2{
-    width: 150px;
-    height: auto;
-}
-.form-input-2{
-    border-right: none;
-    font-family: 'Poppins';
-    font-size: 0.6rem;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.form-2{
-    text-align: center;
-}
-.heading-3{
-    color: white;
-    font-family: 'Poppins';
-    font-size: 22px;
-    font-weight: 100;
+
+.form-area{
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #fff;
+    color: rgba(255, 255, 255, 0.5);
+    transition: all .4s;
 }
 
+.form-area:focus{
+    background: transparent;
+    box-shadow: none;
+    border-bottom: 1px solid #EF5F25;
+}
+/* end of form */
+
+/* button */
+.btn-con{
+    background-color: #EF5F25;
+}
+.btn-con:hover
+{
+ background-color: #d35523;   
+}
+
+/* end of button */
 /* endof contact */
 
 
@@ -436,13 +229,22 @@ section#contact {
   section#contact #forms .col-lg-6 h2, section#contact #forms .col-lg-6 p, section#contact #forms .col-lg-6 label {
     font-weight: 300;
   }
+  section#contact #forms .col-lg-6 a, section#contact #forms .col-lg-6 p:hover
+  {
+      text-decoration: none;
+  }
   
-  section#contact #footer .col-lg-3 h5, section#contact #footer .col-lg-3 p {
-    font-weight: 300;
+  section#contact #footer .col-lg-3 h5
+  {
+    /* font-weight:bold; */
     font-size: 13px;
     line-height: 40px;
     margin-bottom: 0;
     color: white;
+  }
+  section#contact #footer .col-lg-3 ul > li a
+  {
+      color: white;
   }
   
   section#contact #footer .col-lg-3 h5:hover, section#contact #footer .col-lg-3 p:hover {
@@ -484,7 +286,8 @@ section#contact {
     font-size: 14px;
   }
   
-  @media (max-width: 830px) {
+  @media (max-width: 830px) 
+  {
     .logo {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -499,14 +302,19 @@ section#contact {
     .rem {
       display: none;
     }
-  }
-  @media (max-width: 600px) {
-    #footer > div.col.col-lg-3.logo > div > div:nth-child(1) > img,#media p
+    #footer > div.col.col-lg-3.logo > div > div:nth-child(1) > img,#media ul
     {
       position: relative;
-      left: 20%;
+      left: 30%;
     }
   }
+  /* @media (max-width: 600px) {
+    #footer > div.col.col-lg-3.logo > div > div:nth-child(1) > img,#media ul
+    {
+      position: relative;
+      left: 30%;
+    }
+  } */
 
   @media (max-width: 600px)
   {
@@ -547,4 +355,14 @@ section#contact {
 {
   color: white;
 
+}
+#contact > div.copyright > p
+{
+    margin-bottom: 0;
+    font-weight: 100;
+    font-size: 10px;
+}
+body
+{
+  overflow-x: hidden;
 }

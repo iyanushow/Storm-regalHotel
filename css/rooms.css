@@ -19,13 +19,24 @@ nav{
     height: 10vh;
     
 }
+.nav-menu{
+  background: #1C1D25;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 10px;
+
+}
+.nav-menu-list
+{
+  padding-top: 20px;
+}
 .nav-links{
     display: flex;
     list-style-type: none;
     width: 50%;
     /* font-size: 50px; */
     font-family: 'Poppins', sans-serif;
-    height: 100%;
+    /* height: 100%; */
     justify-content: space-around;
     align-items: center;
     margin-left: auto;
@@ -364,107 +375,121 @@ a:hover
 }
 
 /* footer style-start */
+/* footer style-start */
 section#contact {
-    background-color: #181920cf;
-   
-  }
-  
-  section#contact #forms {
+  background-color: #181920cf;
+ 
+}
+
+section#contact #forms {
+  color: white;
+}
+
+section#contact #forms #media p {
+  float: left;
+}
+
+section#contact #forms .col-lg-6 {
+  height: 70%;
+  font-family: "Poppins";
+}
+
+section#contact #forms .col-lg-6 h2, section#contact #forms .col-lg-6 p, section#contact #forms .col-lg-6 label {
+  font-weight: 300;
+  color: white;
+}
+
+section#contact #footer .col-lg-3 h5
+{
+  /* font-weight:bold; */
+  font-size: 13px;
+  line-height: 40px;
+  margin-bottom: 0;
+  color: white;
+}
+section#contact #footer .col-lg-3 ul > li a
+{
     color: white;
-  }
+}
+
+section#contact #footer .col-lg-3 h5:hover, section#contact #footer .col-lg-3 p:hover {
+  -webkit-text-decoration: underline white solid;
+          text-decoration: underline white solid;
+}
+
+section#contact #footer .col-lg-3 .contact-line {
+  float: left;
+}
+
+section#contact #footer .col-lg-3 .contact-line i {
+  color: white;
+}
+
+form .form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+}
+
+form .btn-warning {
+  background-color: #EF5F25;
+  border: 0;
+  border-radius: 0;
+  width: 100%;
+  text-align: center;
+}
+form .btn-warning:hover
+{
+  background-color: #e94200;
   
-  section#contact #forms #media p {
-    float: left;
+}
+.copyright {
+  text-align: center;
+  font-family: 'Muli', serif;
+  font-style: normal;
+  font-size: 14px;
+}
+
+@media (max-width: 830px) 
+{
+  .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  
-  section#contact #forms .col-lg-6 {
-    height: 70%;
-    font-family: "Poppins";
+  .rem {
+    display: none;
   }
-  
-  section#contact #forms .col-lg-6 h2, section#contact #forms .col-lg-6 p, section#contact #forms .col-lg-6 label {
-    font-weight: 300;
-  }
-  
-  section#contact #footer .col-lg-3 h5, section#contact #footer .col-lg-3 p {
-    font-weight: 300;
-    font-size: 13px;
-    line-height: 40px;
-    margin-bottom: 0;
-    color: white;
-  }
-  
-  section#contact #footer .col-lg-3 h5:hover, section#contact #footer .col-lg-3 p:hover {
-    -webkit-text-decoration: underline white solid;
-            text-decoration: underline white solid;
-  }
-  
-  section#contact #footer .col-lg-3 .contact-line {
-    float: left;
-  }
-  
-  section#contact #footer .col-lg-3 .contact-line i {
-    color: white;
-  }
-  
-  form .form-control {
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid gray;
-    outline: none;
-  }
-  
-  form .btn-warning {
-    background-color: #EF5F25;
-    border: 0;
-    border-radius: 0;
-    width: 100%;
-    text-align: center;
-  }
-  form .btn-warning:hover
+  #footer > div.col.col-lg-3.logo > div > div:nth-child(1) > img,#media ul
   {
-    background-color: #e94200;
-    
+    position: relative;
+    left: 30%;
   }
-  .copyright {
-    text-align: center;
-    font-family: 'Muli', serif;
-    font-style: normal;
+}
+/* @media (max-width: 600px) {
+  #footer > div.col.col-lg-3.logo > div > div:nth-child(1) > img,#media ul
+  {
+    position: relative;
+    left: 30%;
+  }
+} */
+
+@media (max-width: 600px)
+{
+  #forms  h2
+  {
     font-size: 14px;
   }
   
-  @media (max-width: 830px) {
-    .logo {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-    }
-    .rem {
-      display: none;
-    }
-  }
-  @media (max-width: 600px) {
-    #footer > div.col.col-lg-3.logo > div > div:nth-child(1) > img,#media p
-    {
-      position: relative;
-      left: 20%;
-    }
-  }
-
-  @media (max-width: 600px)
-  {
-    #forms  h2
-    {
-      font-size: 14px;
-    }
-    
-  }
+}
+/* footer style-end */
   /* footer style-end */
 
 
@@ -478,9 +503,7 @@ section#contact {
  }
  
  h3 {  
-    font-style: light;
-    font-size:  40px;
-    line-height: 72px,100%;
+    
     align-items: center;
     color: white;
  }
@@ -671,4 +694,10 @@ body{
 {
   color: white;
 
+}
+#contact > div.copyright > p
+{
+    margin-bottom: 0;
+    font-weight: 100;
+    font-size: 10px;
 }
