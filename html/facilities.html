@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Facilities</title>
+    <title>Regal Hotel | Facilities</title>
     <!-- favicon -->
     <link rel="title icon" type="img/png" href="../images/favicon.png">
     <!-- Bootstrap CSS -->
@@ -18,194 +18,132 @@
 
 </head>
 <body>
-    <nav>
+    <nav class=" fixed-top nav-menu">
         <div class="hamburger"  onclick="myFunction(this)">
             <div class="bar1 line"></div>
             <div class="bar2 line"></div>
             <div class="bar3 line"></div>
         </div>
-        <a href="../index.html" style=" position: absolute;
-            left: 45px; top: 10px;" class="logo"><span class="logo"><img src="../images/Asset 2-8 1.svg"></span>
-        </a>
-        <a href="../index.html" class="brand" style="text-align: left; vertical-align: middle;  position: absolute;
-            left: 100px; top: 25px;"><h1>Regal Hotel</h1>
-        </a>
-        <ul class="nav-links">              
-    
-        
+        <a href="../index.html" class="navbar-brand"><img src="../images/logo.png" alt="" style="width: 160px;" class=""></a>
+        <ul class="nav-links fixed-top nav-menu nav-menu-list">              
             <li><a href="../index.html" >Home</a></li>
             <li><a href="../html/facilities.html" >Facilities</a></li>
             <li><a href="../html/offers.html" >Rooms</a></li>
             <li><a href="../html/Contact.html" >Contact</a></li>  
         </ul>
      </nav>
-    <!-- carousel -->
-        <section class="p-5 mt-5">
-            <div class="container-fluid">
-                <!-- title -->
-                <div class="row  text-center">
-                    <div class="col">
-                        <h3 class="text-light">Hotel Facilities</h3>
-                        <div class="underline"></div>                        
-                    </div>
-                </div>
-                <!-- end of title -->
-                
-                <div class="row my-5">
-                    <div class="col-xl-8 col-lg-10 col-md-12 col-sm-12 mx-auto">
-                        <div id="facilities-carousel" class="carousel slide" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                                <li data-target="#facilities-carousel" data-slide-to="0"></li>
-                                <li data-target="#facilities-carousel" data-slide-to="1"></li>
-                                <li data-target="#facilities-carousel" data-slide-to="2"></li>
-                            </ol>
-                            <div class="carousel-inner">
-                                <!-- first slide -->
-                                <div class="carousel-item active">
-                                     <div class="container">
-                                         <div class="row">
-                                             <!-- first slide first card -->                                             
-                                             <div class="col-md-6 col-sm-12 mb-2">
-                                                <div class="card card-color h-100 m-sm-2">
-                                                    <img src="../images/gymnasium.png" class="card-img-top" alt="">
-                                                    <div class="card-body">
-                                                        <div class="card-title">
-                                                            <h3 class="text-light lead font-weight-bold">Gymnasium</h3>
-                                                        </div>
-                                                        <div class="class-subtitle">
-                                                            <p class="text-light card-text-1" >
-                                                                We have the most equipped gym in Amsterdam with 
-                                                                highly trained instructors always available
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>                                                 
-                                             </div>
-                                             <!-- end of first slide first card -->
+    
 
-                                             <!-- first slide second card -->
-                                             <div class="col-md-6 col-sm-12 mb-2">
-                                                <div class="card card-color h-100 m-sm-2">
-                                                    <img src="../images/saloon&spa.png" class="card-img-top" alt="">
-                                                    <div class="card-body">
-                                                        <div class="card-title">
-                                                            <h3 class="text-light lead font-weight-bold">Saloon & Spa</h3>
-                                                        </div>
-                                                        <div class="class-subtitle">
-                                                            <p class="text-light card-text-1">
-                                                                You’re welcome to experience relaxing massages and pampering sessions at our 
-                                                                spa and we gurantee you a memorable escapade.
-                                                            </p>
-                                                        </div>
+     <!-- CAROUSEL -->
+     <section class="py-5">
+        <div class="container-fluid">
+            <!-- title -->
+            <div class="row text-center">
+                <div class="col pt-5">
+                    <h3 class="text-light">Hotel Facilities</h3>
+                    <div class="underline"></div>                        
+                </div>
+            </div>
+            <!-- end of title -->
+            
+            <div class="row my-5 ml-md-5 justify-content-center">
+                <div class="col-xl-8 col-lg-10 col-md-10 col-sm-12 px-5">
+                    <div id="facilities-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#facilities-carousel" data-slide-to="0"></li>
+                            <li data-target="#facilities-carousel" data-slide-to="1"></li>
+                            <li data-target="#facilities-carousel" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <!-- first slide -->
+                            <div class="carousel-item active">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <!-- first slide first card -->                                             
+                                        <div class="col-sm-12">
+                                            <div class="card card-color">
+                                                <img src="../images/gymnasium.png" class="card-img-top" alt="">
+                                                <div class="card-body">
+                                                    <div class="card-title">
+                                                        <h3 class="text-light lead font-weight-bold">Gymnasium</h3>
+                                                    </div>
+                                                    <div class="class-subtitle">
+                                                        <p class="text-light">
+                                                            We have the most equipped gym in Amsterdam with highly trained instructors always available. doloribus eligendi odio
+                                                            consectetur
+                                                        </p>
                                                     </div>
                                                 </div>
-                                            </div>
-                                             <!-- end of first slide second card -->
-                                            
-                                         </div>                                         
-                                     </div>
+                                            </div>                                                 
+                                        </div>
+                                        <!-- end of first slide first card -->                                            
+                                    </div>                                         
                                 </div>
-                                <!-- end of first slide -->
+                            </div>
+                            <!-- end of first slide -->
 
-                                <!-- second slide -->
-                                <div class="carousel-item">
-                                    <div class="container">
-                                        <div class="row">
-                                            <!-- second slide first card -->                                             
-                                            <div class="col-md-6 col-sm-12 mb-2">
-                                               <div class="card card-color h-100 m-sm-2">
-                                                   <img src="../images/gymnasium.png" class="card-img-top" alt="">
-                                                   <div class="card-body">
-                                                       <div class="card-title">
-                                                           <h3 class="text-light lead font-weight-bold">Gymnasium</h3>
-                                                       </div>
-                                                       <div class="class-subtitle">
-                                                           <p class="text-light card-text-1">
-                                                               We have the most equipped gym in Amsterdam with 
-                                                               highly trained instructors always available
-                                                           </p>
-                                                       </div>
-                                                   </div>
-                                               </div>                                                 
-                                            </div>
-                                            <!-- end of second slide first card -->
+                            <!-- second slide -->
+                            <div class="carousel-item">
+                                <div class="container">
+                                    <div class="row">
+                                        <!-- second slide first card -->                                             
+                                        <div class="col-sm-12 mb-2">
+                                            <div class="card card-color">
+                                                <img src="../images/saloon&spa.png" class="card-img-top" alt="">
+                                                <div class="card-body">
+                                                    <div class="card-title">
+                                                        <h3 class="text-light lead font-weight-bold">Saloon & Spa</h3>
+                                                    </div>
+                                                    <div class="class-subtitle">
+                                                        <p class="text-light">
+                                                            You’re welcome to experience relaxing massages and pampering sessions 
+                                                            at our spa and we gurantee you a memorable escapade.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>                                                 
+                                        </div>
+                                        <!-- end of second slide first card -->                                        
+                                    </div>                                         
+                                </div>
+                            </div>
+                            <!-- end of second slide -->
+                            
 
-                                            <!-- second slide second card -->
-                                            <div class="col-md-6 col-sm-12 mb-2">
-                                               <div class="card card-color h-100 m-sm-2">
-                                                   <img src="../images/saloon&spa.png" class="card-img-top" alt="">
-                                                   <div class="card-body">
-                                                       <div class="card-title">
-                                                           <h3 class="text-light lead font-weight-bold">Saloon & Spa</h3>
-                                                       </div>
-                                                       <div class="class-subtitle">
-                                                           <p class="text-light card-text-1">
-                                                               You’re welcome to experience relaxing massages and pampering sessions at our 
-                                                               spa and we gurantee you a memorable escapade.
-                                                           </p>
-                                                       </div>
-                                                   </div>
-                                               </div>
-                                           </div>
-                                            <!-- end of second slide second card -->
-                                           
-                                        </div>                                         
-                                    </div>
-                               </div>
-                                <!-- end of second slide -->
-                                
-
-                                <!-- third slide -->
-                                <div class="carousel-item">
-                                    <div class="container">
-                                        <div class="row">
-                                            <!-- third slide first card -->                                             
-                                            <div class="col-md-6 col-sm-12 mb-2">
-                                               <div class="card card-color h-100 m-sm-2">
-                                                   <img src="../images/gymnasium.png" class="card-img-top" alt="">
-                                                   <div class="card-body">
-                                                       <div class="card-title">
-                                                           <h3 class="text-light lead font-weight-bold">Gymnasium</h3>
-                                                       </div>
-                                                       <div class="class-subtitle">
-                                                           <p class="text-light card-text-1">
-                                                               We have the most equipped gym in Amsterdam with 
-                                                               highly trained instructors always available
-                                                           </p>
-                                                       </div>
-                                                   </div>
-                                               </div>                                                 
-                                            </div>
-                                            <!-- end of third slide first card -->
-
-                                            <!-- third slide second card -->
-                                            <div class="col-md-6 col-sm-12 mb-2">
-                                               <div class="card card-color h-100 m-sm-2">
-                                                   <img src="../images/saloon&spa.png" class="card-img-top" alt="">
-                                                   <div class="card-body">
-                                                       <div class="card-title">
-                                                           <h3 class="text-light lead font-weight-bold">Saloon & Spa</h3>
-                                                       </div>
-                                                       <div class="class-subtitle">
-                                                           <p class="text-light card-text-1">
-                                                               You’re welcome to experience relaxing massages and pampering sessions at our 
-                                                               spa and we gurantee you a memorable escapade.
-                                                           </p>
-                                                       </div>
-                                                   </div>
-                                               </div>
-                                           </div>
-                                            <!-- end of third slide second card -->
-                                           
-                                        </div>                                         
-                                    </div>
-                               </div>
-                                <!-- end of third slide -->
-                                
-                            </div>                         
-                        </div>
-                        
+                            <!-- third slide -->
+                            <div class="carousel-item">
+                                <div class="container">
+                                    <div class="row">
+                                        <!-- third slide first card -->                                             
+                                        <div class="col-sm-12 mb-2">
+                                            <div class="card card-color">
+                                                <img src="../images/pool.png" class="card-img-top" alt="">
+                                                <div class="card-body">
+                                                    <div class="card-title">
+                                                        <h3 class="text-light lead font-weight-bold">Swimming Pool</h3>
+                                                    </div>
+                                                    <div class="class-subtitle">
+                                                        <p class="text-light">
+                                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam omnis, architecto at, 
+                                                            culpa doloribus eligendi odio
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>                                                 
+                                        </div>
+                                        <!-- end of third slide first card -->
+                                    </div>                                         
+                                </div>
+                            </div>
+                            <!-- end of third slide -->
+                            
+                        </div>                         
                     </div>
+                    
+                </div>
+
+                <!-- carousel control -->                    
+                <div class="m-5">
                     <a href="#facilities-carousel" class="carousel-control-prev" data-slide="prev">
                         <span class="carousel-control-prev-icon"></span>
                     </a>
@@ -213,10 +151,14 @@
                         <span class="carousel-control-next-icon"></span>
                     </a>
                 </div>
-                
-            </div>
-        </section>
-    <!-- end of carousel -->
+                <!-- carousel control -->
+            </div>                
+        </div>
+    </section>
+<!-- end of carousel -->
+
+
+
 
         <section class="p-2">
             <div class="container-fluid">
@@ -268,83 +210,137 @@
 
 
         <!-- footer -->
-        <section id="contact" class="contact mt-4  pt-5 px-5">
-            <div id="forms">
-            <div class="row mb-5">
-                <div class="col-12 col-md-12 col-lg-6 mb-5">
-                    <a href="#"> <h2>Download our mobile app</h2>
-                        <p>Book rooms easily on our mobile phone</p> </a>
+       <!-- FOOTER AND FORM -->
+    <section id="contact" class="contact mt-4  pt-5 px-5">
+        <div class="container container-fluid">
+          <div id="forms">
+            <div class="row mb-3">
+              <div class="col-12 col-md-12 col-lg-6 mb-md-5">
+                <a href="#"> <h2>Download our mobile app</h2>
+                  <p>Book rooms easily on our mobile phone</p> </a>
                 <div class="icons" id="download">
-                    <a href="#"><img src="../images/apple.png" alt="icon" ></a>
-                    
+                  <a href="#"><img src="../images/apple.png" alt="icon" width="150px"></a>
+                  
+                  
                 </div>
-                </div>
-                <div class="col col-md-12 col-lg-6">
+              </div>
+              <div class="col col-md-12 col-lg-6">
                 <h2>Subscribe to our Newsletter</h2>
                 <form>
-                    <div class="form-group">
+                  <div class="form-group">
                     
                     <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Email address">
                     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                    </div>
-                    <div class="form-group">
+                  </div>
+                  <div class="form-group">
                 
                     <input type="password" class="form-control" placeholder="Password" >
-                    </div>
-                    <div class="form-group form-check">
+                  </div>
+                  <div class="form-group form-check">
                     <input type="checkbox" class="form-check-input" id="offers">
                     <label class="form-check-label" for="offers">Send me emails and updates of new offers</label>
-                    </div>
-                    <button type="submit" class="btn btn-warning">SIGN UP</button>
+                  </div>
+                  <button type="submit" class="btn btn-warning">SIGN UP</button>
                 </form>
-                </div>
+              </div>
             </div>
-            </div>
-            <div class="row mt-5 mb-3 py-4" id="footer">
-                <div class="col col-lg-3 rem">
-                <h5>REGAL HOTEL</h5>
-                <a href="#"><P>Site Map</P></a>
-                <a href="#"><P>FAQ</P></a>
-                <a href="#"><P>Sustainability</P></a>
-                <a href="#"><P>Property Map</P></a>
-                <a href="#"><P>Document Library</P></a>
-                <a href="#"><P>Responsilble balling</P></a>
-                </div>
-                <div class="col col-lg-3 rem">
-                <h5>Guest services</h5>
-                <a href="#"><P>Premier</P></a>
-                <a href="#"><P>Your reservation</P></a>
-                <a href="#"><P>Guest Receipt</P></a>
-                <a href="#"><P>Conceierge services</P></a>
-                <a href="#"><P>Gift cards & coupons</P></a>
-                <a href="#"><P> Guest Sign-up</P></a>
-                </div>
-                <div class="col col-lg-3 rem">
-                <h5>More</h5>
-                <a href="#"><P>Terms and Conditions</P></a>
-                <a href="#"><P> Regal Magazine</P></a>
-                <a href="#"><P>Hotel Development</P></a>
-                <a href="#"><P>Residences</P></a>
-                <a href="#"><P>Privacy policy</P></a>
-                
-                </div>
-                <div class="col col-lg-3 logo">
+          </div>
+          <div class="row mt-3 mb-3 py-4" id="footer">
+              <div class="col col-lg-3 rem">
+                <h5 class="text-uppercase font-weight-bold">REGAL HOTEL</h5>
+                <ul class="list-unstyled">
+                  <li class="p-1 small">
+                      <a href="#" class="footer-link">Site Map</a>
+                  </li>
+                  <li class="p-1 small">
+                      <a href="#" class="footer-link">FAQ</a>
+                  </li>
+                  <li class="p-1 small">
+                      <a href="#" class="footer-link">Sustainability</a>
+                  </li>
+                  <li class="p-1 small">
+                      <a href="#" class="footer-link">Property Map</a>
+                  </li>
+                  <li class="p-1 small">
+                      <a href="#" class="footer-link">Document Library</a>
+                  </li>
+                  <li class="p-1 small">
+                      <a href="#" class="footer-link">Responsible Balling</a>
+                  </li>
+              </ul>
+              </div>
+              <div class="col col-lg-3 rem">
+                <h5 class="text-uppercase font-weight-bold">Guest services</h5>
+                <ul class="list-unstyled">
+                  <li class="p-1 small">
+                      <a href="#" class="footer-link">Premier Map</a>
+                  </li>
+                  <li class="p-1 small">
+                      <a href="#" class="footer-link">Your Reservation</a>
+                  </li>
+                  <li class="p-1 small">
+                      <a href="#" class="footer-link">Guest Receipt</a>
+                  </li>
+                  <li class="p-1 small">
+                      <a href="#" class="footer-link">Concierge Services</a>
+                  </li>
+                  <li class="p-1 small">
+                      <a href="#" class="footer-link">Gift Cards & Coupons</a>
+                  </li>
+                  <li class="p-1 small">
+                      <a href="#" class="footer-link">Guest Sign-up</a>
+                  </li>
+              </ul>
+              </div>
+              <div class="col col-lg-3 rem">
+                <h5 class="text-uppercase font-weight-bold">More</h5>
+                <ul class="list-unstyled">
+                  <li class="p-1 small">
+                      <a href="#" class="footer-link">Terms & Conditions</a>
+                  </li>
+                  <li class="p-1 small">
+                      <a href="#" class="footer-link">Regal Magazine</a>
+                  </li>
+                  <li class="p-1 small">
+                      <a href="#" class="footer-link">Hotel Development</a>
+                  </li>
+                  <li class="p-1 small">
+                      <a href="#" class="footer-link">Residences</a>
+                  </li>
+                  <li class="p-1 small">
+                      <a href="#" class="footer-link">Privacy Policy</a>
+                  </li>
+              </ul>
+              
+              </div>
+              <div class="col col-lg-3 logo">
                 <div class="row">
-                    <div class="col-12"> <img src="../images/new.png" alt="logo.png"> 
-                    </div>
-                    <div class="col-12" id="media">
-                    <p class="contact-line m-2"><a href="#"><i class="fab fa-facebook"></i></a></p>
-                    <p class="contact-line m-2"> <a href="#"><i class="fab fa-instagram"></i></a></p>
-                    <p class="contact-line m-2"><a href="#"><i class="fab fa-twitter"></i></a></p>
+                  <div class="col-12"> <img src="../images/new.png" alt="logo.png"> 
+                  </div>
+                  <div class="col-12 mt-4" id="media">
+                    <ul class="list-inline">
+                      <li class="list-inline-item">
+                          <a href="#"><i class="fa fa-2x fa-facebook-square text-white"></i></a>
+                      </li>
+                      <li class="list-inline-item">
+                          <a href="#"><i class="fa fa-2x fa-twitter text-white"></i></a>
+                      </li>
+                      <li class="list-inline-item">
+                          <a href="#"><i class="fa fa-2x fa-instagram text-white"></i></a>
+                      </li>
+                  </ul>
                     
-                    </div>
+                  </div>
                 </div>
-                </div>
+              </div>
             </div>
-            </div>
-            <div class="copyright">
+          </div>
+          <div class="copyright">
             <p> <span><i class="far fa-copyright"></i></span> COPYRIGHT REGAL HOTELS LLC 2020</p>
-            </div>
+          </div>
+        
+            
+        </div>        
         </section>
         <script src="../JS/script.js"></script>
 
