@@ -455,4 +455,7 @@ a.carousel-control-prev,a.carousel-control-next
   top: 40%;
 }
 
-/* body > section.py-5 > div > div.row.my-5.ml-md-5.justify-content-center > div.m-5 > */
+p.text-light
+{
+  font-weight: 200;
+}

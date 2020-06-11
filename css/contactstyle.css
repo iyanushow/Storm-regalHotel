@@ -371,3 +371,7 @@ body
 {
   overflow-x: hidden;
 }
+body > section.p-5 > div > div.row.my-5 > div > div > div:nth-child(1)
+{
+  font-weight: 300;
+}
